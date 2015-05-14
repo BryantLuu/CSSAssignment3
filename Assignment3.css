@@ -6,6 +6,7 @@
   height:25px;
  border-radius: 25px;
   text-align:center;
+  margin-left:90px;
 }
 .arrow_box:after, .arrow_box:before {
   left: 95%;
@@ -20,7 +21,7 @@
 
 .arrow_box:after {
   border-color: rgba(213, 199, 0, 0);
-  border-left-color: #d5c700;
+  border-left-color: #FCC600;
   border-width: 10px;
   margin-top: -10px;
 }
@@ -30,3 +31,158 @@
   border-width: 15px;
   margin-top: -15px;
 }
+
+#container{
+  width:1020px;
+  margin:0px auto;
+  background-color:black;
+}
+
+#header{
+  background-color:#F4F4F4;
+  height:70px;
+}
+
+#logo{
+  height:70px;
+  width:350px;
+  display:inline-block;
+  vertical-align:top;
+  background-image:url("http://i.imgur.com/lEoyhhs.png");
+  background-repeat: no-repeat;
+}
+
+#callnumber{
+  display:inline-block;
+  margin-left:400px;
+  position: relative;
+  top:10px;
+  
+}
+
+#navbar{
+  background-color:#DAE0E5;
+  height:32px;
+  display:inline-block;
+  width: 1020px;
+  vertical-align:top;
+  border-top:1px solid #AEADAD;
+}
+
+#navbar ul {
+  display:inline;
+  vertical-align:top;
+  
+}
+
+#navbar ul li{
+  display:inline-block;
+  border: 1px solid #AEADAD;
+  border-bottom:none;
+  height:10px;
+  vertical-align:top;
+  padding:10px;
+  font-size: 12px;
+  
+  }
+
+#whitespace{
+  background-color:#F4F4F4;
+  height:30px;
+}
+
+#mc{
+  
+}
+
+#mctop{
+  
+}
+
+  #mctopleft{
+    display:inline-block;
+    width:375px;
+    height:250px;
+    margin: 10px 0px 5px 20px;
+    border: 3px solid #FFFFFF;
+    background-image: url("http://i.imgur.com/rW7UrPn.png");
+    background-repeat: no-repeat;
+  }
+
+  #mctopright{
+    display:inline-block;
+    width:550px;
+    height:265px;
+    background-color:#7A7A78;
+    margin: 10px 0px 5px 20px;
+    vertical-align:top;
+  }
+
+  #mctopright h3{
+    color:white;
+    margin-left: 20px;
+  }
+  #mctopright p{
+    color:white;
+    margin-left: 20px;
+  }
+
+  #mctoprighttitle {
+    background-color: #FECE53;
+    width:550px;
+    height:30px;
+    display:inline-block;
+    vertical-align:top;
+  }
+  
+  #mctoprighttitle h5 {
+  color:black;
+  margin:7px 4px 0px 10px;
+    
+  }
+
+#mcmid{
+  color:white;
+  height:30px
+}
+
+#mcmid p{
+  margin: 0px 0px 0px 70px;
+}
+
+#mcbot{
+  
+}
+
+#mcbot p{
+  font-size:12px;
+  margin:10px;
+}
+
+.box {
+  display:inline-block;
+  width:222px;
+  height:250px;
+  background-color:#FFF6E4;
+  margin:0px 0px 10px 20px; 
+  vertical-align:top;
+}
+
+.boxtitle {
+    background-color: #FECE53;
+    width:222px;
+    height:30px;
+    display:inline-block;
+    vertical-align:top;
+  
+}
+
+.boxtitle h5 {
+  color:black;
+  margin:7px 4px 0px 10px;
+}
+
+
+
+
+
